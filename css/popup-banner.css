@@ -1,0 +1,51 @@
+.popup_banner {
+	position: absolute;
+  width: 170px;
+  left: 50%;
+  margin-left: -80px;
+  padding-left:6px;
+  top: -200px;
+  display: inline;
+  z-index: 10;
+  line-height:1px;
+}
+.popup_banner img {border:0px;}
+#close_button {
+  z-index:10;
+  position:absolute;top:20px; left:50%;
+  cursor:pointer;display:none;
+	background-image:url(../images/close.png);
+	width:24px;
+	height:24px;
+}
+#roll_up_button {
+  z-index:10;
+  position:absolute;
+  left:50%;
+  cursor:pointer;display:none;
+	background:url(../images/roll_up.png) no-repeat;
+	width:7px;
+	height:4px;
+}
+#roll_up_button.down {
+	background:url(../images/roll_down.png) no-repeat;
+}
+#close_text {
+  display:none;background:url(../images/close_this_window.png);z-index:11;position:absolute;width:105px;height:15px;
+}
+#banner_link_center {
+	display:block;
+}
+#img_popup {
+	border:0px;
+}
+#popup_banner_top, #popup_banner_bottom {
+display:block;
+}
+#opacity {
+position:absolute;
+width:1px;
+background:#fff;
+opacity:0.4;
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+}
